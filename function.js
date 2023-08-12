@@ -24,3 +24,33 @@ giveWater(30);
 // console.log(props[i],values[i]);
 
 // }
+
+
+
+
+// ----------------------------------->
+
+/* 
+function functionName (parameters){
+    function body
+    return 
+}
+
+var returnedValue = functionName(parameters value) 
+*/
+
+// function getAverage(assignment1, assignment2, assignment3) {
+//   const total = assignment1 + assignment2 + assignment3;
+//   const average = total / 3;
+//   console.log(average);
+// }
+// getAverage(60, 60, 60);
+
+function getAverage(assignment1, assignment2, assignment3) {
+  const total = assignment1 + assignment2 + assignment3;
+  const average = total / 3;
+  return average;
+}
+
+var myAverage = getAverage(60, 60, 60); //if you use return then only calling the function will not work you must put the call in a variable and then print that variable.
+console.log("my average so far: ", myAverage);
